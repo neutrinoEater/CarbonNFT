@@ -2,7 +2,8 @@
 
 NFT-Collateralised UST stablecoin loans on Harmony
 
-![alt text](https://raw.githubusercontent.com/Aranyani01/CFY/main/public/logo512.png)
+![alt text](https://raw.githubusercontent.com/neutrinoEater/CarbonNFT/main/public/Screenshot%202021-09-30%20at%208.31.08%20PM.png)
+
 
 Demo on Harmony Testnet! Contract Addresses:
 
