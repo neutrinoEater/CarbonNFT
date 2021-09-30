@@ -27,7 +27,10 @@ CarbonNFT is a brand new, Crypto Native Financial Primitive, built on the Harmon
 
 
  1. Claim your CarbonNFT on harmony explorer
- 2. Create a loan request on CarbonLending
+ 2. Create a loan request on CarbonLending, specifying loan duration and interest you're willing to pay.
+ 3. Someone evaluates your address tx. history and decides to accept your LoanRequest
+ 4. You recieve the UST in your wallet! Enjoy your credit responsibly.
+ 5. Pay back the loan with the promised interest any time before the end of the loan period - use the EndRequest Functionality.
 
 
 
