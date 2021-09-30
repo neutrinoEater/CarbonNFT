@@ -1,19 +1,22 @@
-## CFY.FINANCE
- 
-NFT-Collateralised Loans on Polygon
+## CarbonNFT
+
+NFT-Collateralised UST stablecoin loans on Harmony
 
 ![alt text](https://raw.githubusercontent.com/Aranyani01/CFY/main/public/logo512.png)
 
-Beta is now Live on Matic Mainnet! Contract Addresses:
+Demo on Harmony Testnet! Contract Addresses:
 
-- LeaseNFT.sol : 0xbe7Ba64cCAab7a4aaB4D32e4070Bf85D057D2B5c
-- LoanNFT.sol : 0x48CddE6c5af7D19BF1A436159b54AD42d753141C
+- LeaseNFT.sol :
+- LoanNFT.sol :
 
-## Webapp (Frontend) live on: http://cfy.finance:3000
 
 *Summary:*
 
-CFY.Finance is a Decentralised Finance (DeFi) protocol for NFT-collateralised loans, and NFT lending. NFTs is a fast growing market that is currently plagued with extreme lack of liquidity. Moreover, unlike ERC20 tokens, holders of ERC721 NFT tokens do not have any way to earn passive income/access liquidity from their holdings. CFY.Finance changes that by allowing peer-to-peer NFT-collateralised loans using any ERC721 NFT. 
+CarbonNFT is the first ever DeFi Credit card, that lets users take stablecoin (UST) loans by locking up their CarbonNFT as collateral. Each address can mint a CarbonNFT only once; If you default & lose your CarbonNFT, you cannot take a loan again.
+
+CarbonNFT is a brand new, Crypto Native Financial Primitive, built on the Harmony Chain, allowing users to take out P2P, under-collateralised stablecoin loans in Terra USD (UST), by using their address & transaction history as a credit score.
+
+ More generally, CarbonNFT is a Decentralised Finance (DeFi) protocol for NFT-collateralised loans, and NFT lending. NFTs is a fast growing market that is currently plagued with extreme lack of liquidity. Moreover, unlike ERC20 tokens, holders of ERC721 NFT tokens do not have any way to earn passive income/access liquidity from their holdings. CFY.Finance changes that by allowing peer-to-peer NFT-collateralised loans using any ERC721 NFT.
 
 Contracts:
 [Note: LOAN NFT functionality is fully functional; Lease NFT is still a work in progress]
