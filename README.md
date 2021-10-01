@@ -78,13 +78,13 @@ CarbonLending includes a Work-In-Progress frontend as well. It is buggy and not 
 
 
 
-This project is a heavily modified fork of CFY.finance, a NFT lending platform built & under active development by us(https://www.youtube.com/watch?v=xPK_FzsnIBI). First, CarbonLending ports the P2P NFT lending functionality to Harmony, and changes the native currency to Harmony Wrapped UST instead of the chain native token, to allow predictable loan and interest repayments. Second, CarbonNFT credit cards are a brand new innovation we've come up with, for use with CarbonLending.
+This project is a heavily modified fork of CFY.finance, a NFT lending platform built & under active development by us(https://www.youtube.com/watch?v=xPK_FzsnIBI). First, CarbonLending ports the P2P NFT lending functionality to Harmony, and changes the native currency to Harmony Wrapped UST instead of the chain native token, to allow predictable loan and interest repayments. Second, CarbonNFT credit cards are a brand new innovation we've come up with, for use with CarbonLending. The scalability of the Harmony chain makes it ideal for running complicated smart contracts like CarbonLending cheaply.
 
 
 
 *From CFY.Finance Project*
 
-NFTs is a fast growing market that is currently plagued with extreme lack of liquidity. Moreover, unlike ERC20 tokens, holders of ERC721 NFT tokens do not have any way to earn passive income/access liquidity from their holdings. In this way, we allow a peer to peer, trustless liquidity protocol where investors can gain interest on their funds while their principal is secured by valuable NFTs. Meanwhile, NFT hodlers can access liquidity as needed without having to sell/risk their precious NFTs. The scalability of the Polygon chain makes it ideal for running complicated smart contracts like CFY.finance cheaply. *CFY.FINANCE* is also the first trustless NFT application, and first NFT-collateralised loan dApp on Polygon. We hope to provide the DeFi infrastructre for NFTs to grow and thrive on the Polygon Chain.
+NFTs is a fast growing market that is currently plagued with extreme lack of liquidity. Moreover, unlike ERC20 tokens, holders of ERC721 NFT tokens do not have any way to earn passive income/access liquidity from their holdings. In this way, we allow a peer to peer, trustless liquidity protocol where investors can gain interest on their funds while their principal is secured by valuable NFTs. Meanwhile, NFT hodlers can access liquidity as needed without having to sell/risk their precious NFTs. *CFY.FINANCE* is also the first trustless NFT application.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
