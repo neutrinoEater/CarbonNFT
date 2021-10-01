@@ -10,8 +10,9 @@ CarbonNFT Protocol lets you:
 
 Functional contracts deployed on Harmony MAINNET. Contract Addresses:
 
-CarbonNFT address: 0x2B67D5866Ae9e7993b34d1eB206f04B8c59e036d
-CarbonLending address: 0x7Bd48d11351b605DDe7fa2f2E97989dbB1E52B6F
+CarbonNFT address: `0x2B67D5866Ae9e7993b34d1eB206f04B8c59e036d`[https://explorer.testnet.harmony.one/address/0x2b67d5866ae9e7993b34d1eb206f04b8c59e036d]
+
+CarbonLending address: `0xCd078Ab738101FAe4A715079F6BFFdB2479Ed984` [https://explorer.harmony.one/address/0xcd078ab738101fae4a715079f6bffdb2479ed984]
 
 
 *Summary:*
@@ -26,14 +27,14 @@ CarbonNFT is a brand new, Crypto Native Financial Primitive, built on the Harmon
  How to get a UST loan using Carbon Credit NFT:
 
 
- 1. Claim your CarbonNFT on harmony explorer
+ 1. Claim your CarbonNFT on harmony explorer. Video demo-https://youtu.be/Av1iiMBlvY4
  2. Create a loan request on CarbonLending, specifying loan duration and interest you're willing to pay.
  3. Someone evaluates your address tx. history and decides to accept your LoanRequest
  4. You recieve the UST in your wallet! Enjoy your credit responsibly.
  5. Pay back the loan with the promised interest any time before the end of the loan period - use the EndRequest Functionality.
 
 
-
+Vide
 
 
 Contracts:
@@ -49,7 +50,7 @@ In particular, even if you don't have an NFT, you can claim your one-time carbon
 5. If you fail to repay the loan within the promised time, the NFT collateral is transferred to the creditor
 
 
-
+CarbonNFT project INCLUDES a Work-In-Progress frontend as well. It is buggy and not fully functional, but gives an idea of what an interface would be like. See NPM commands below.
 
 NFTs is a fast growing market that is currently plagued with extreme lack of liquidity. Moreover, unlike ERC20 tokens, holders of ERC721 NFT tokens do not have any way to earn passive income/access liquidity from their holdings. In this way, we allow a peer to peer, trustless liquidity protocol where investors can gain interest on their funds while their principal is secured by valuable NFTs. Meanwhile, NFT hodlers can access liquidity as needed without having to sell/risk their precious NFTs. The scalability of the Polygon chain makes it ideal for running complicated smart contracts like CFY.finance cheaply. *CFY.FINANCE* is also the first trustless NFT application, and first NFT-collateralised loan dApp on Polygon. We hope to provide the DeFi infrastructre for NFTs to grow and thrive on the Polygon Chain.
 
