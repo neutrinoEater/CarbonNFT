@@ -9,18 +9,21 @@
 
 pragma solidity >=0.6.0 <0.7.0;
 
+//edit to give loans and interest in TerraUSD (Wrapped-UST) currency on harmony mainnet
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 import "@openzeppelin/contracts/utils/Pausable.sol";
 import {SafeMath} from "@openzeppelin/contracts/math/SafeMath.sol";
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-contract LoansNFT is IERC721Receiver, Pausable {
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+contract CarbonLending is IERC721Receiver, Pausable {
 
     event LoansUpdated();
 
     using SafeMath for uint;
 
-    IERC20 public token;
+    // IERC20 public USTtoken;
+
+    // address USTaddress = 0x224e64ec1bdce3870a6a6c777edd450454068fec; // address for wrapped UST on harmony mainnet.
 
     enum Status { PENDING, ACTIVE, CANCELLED, ENDED, DEFAULTED }
 
@@ -61,8 +64,11 @@ contract LoansNFT is IERC721Receiver, Pausable {
     constructor() public {
         manager = msg.sender;
         totalLoanRequests = 0;
-        USTaddress = 0x224e64ec1bdce3870a6a6c777edd450454068fec; // address for wrapped UST on harmony mainnet.
-        USTtoken = new ERC20Basic(USTaddress)
+
+
+        //address USTaddress = 0x224e64ec1bdce3870a6a6c777edd450454068fec;
+        // address for wrapped UST on harmony mainnet.
+        // USTtoken = new ERC20(USTaddress);
     }
 
     // Equivalent to 'bytes4(keccak256("onERC721Received(address,address,uint256,bytes)"))'
@@ -119,7 +125,9 @@ contract LoansNFT is IERC721Receiver, Pausable {
         uint sumForLoan = allLoanRequests[loanID].loanAmount - allLoanRequests[loanID].interestAmount;
         // require(msg.value >= sumForLoan, "Not enough Ether sent to function to underwrite loan.");
         // change from native currency to stablecoin UST
-        token.transferFrom(msg.sender, allLoanRequests[loanID].borrower, sumForLoan); //
+        IERC20 USTtoken = IERC20(0x224e64ec1BDce3870a6a6c777eDd450454068FEC);
+        USTtoken.approve(address(this), sumForLoan);
+        USTtoken.transferFrom(msg.sender, allLoanRequests[loanID].borrower, sumForLoan);
         allLoanRequests[loanID].maximumInterestPeriods = allLoanRequests[loanID].maximumInterestPeriods - 1;
 
         allLoanRequests[loanID].lender = msg.sender;
@@ -156,11 +164,13 @@ contract LoansNFT is IERC721Receiver, Pausable {
 
         // Borrower sends principal amount of loan back to lender
         // And receives NFT collateral back
+        IERC20 USTtoken = IERC20(0x224e64ec1BDce3870a6a6c777eDd450454068FEC);
         if (msg.sender == allLoanRequests[loanID].borrower) {
             require(msg.value >= allLoanRequests[loanID].loanAmount, "The principal amount of the loan was not sent.");
             allLoanRequests[loanID].status = Status.ENDED;
             // allLoanRequests[loanID].lender.transfer(allLoanRequests[loanID].loanAmount);
-            token.transferFrom(msg.sender, allLoanRequests[loanID].lender, loanAmount); //transfer principal + interest in UST
+            USTtoken.approve(address(this), allLoanRequests[loanID].loanAmount);
+            USTtoken.transferFrom(msg.sender, allLoanRequests[loanID].lender, allLoanRequests[loanID].loanAmount); //transfer principal + interest in UST
         } else {
             allLoanRequests[loanID].status = Status.DEFAULTED;
         }
