@@ -24,14 +24,10 @@ This is made possible by linking a unique, 'credit card NFT' to each address. Th
 
 CarbonNFT is the first ever DeFi Credit card, that lets users take stablecoin (UST) loans by locking up their CarbonNFT as collateral. Each address can mint a CarbonNFT only once; If you default & lose your CarbonNFT, you cannot take a loan again. Carbon NFT loans are anonymous and dont create any legal obilgations between parties. Instead all incentives and penalties are designed into the protocol itself.
 
-CarbonNFT is a brand new, Crypto Native Financial Primitive, built on the Harmony Chain, allowing users to take out P2P, under-collateralised stablecoin loans in Terra USD (UST), by using their address & transaction history as a credit score.
-
- More generally, CarbonNFT is a Decentralised Finance (DeFi) protocol for NFT-collateralised loans, and NFT lending.  C.Finance changes that by allowing peer-to-peer NFT-collateralised loans using any ERC721 NFT.
-
+CarbonLending is a Decentralised Finance (DeFi) protocol for NFT-collateralised loans, and NFT lending.  CarbonLending allows peer-to-peer NFT-collateralised loans using any HRC721 NFT, on Harmony Mainnet.
 
  How to get a UST loan using Carbon Credit NFT:
  [Best used with Harmony Explorer]
-
 
  1. Claim your CarbonNFT on harmony explorer. Video demo-https://youtu.be/Av1iiMBlvY4
  2. Create a loan request on CarbonLending, specifying loan duration and interest you're willing to pay.
@@ -39,9 +35,7 @@ CarbonNFT is a brand new, Crypto Native Financial Primitive, built on the Harmon
  4. You recieve the UST in your wallet! Enjoy your credit responsibly.
  5. Pay back the loan with the promised interest any time before the end of the loan period - use the EndRequest Functionality.
 
-
 Vide
-
 
 Contracts:
 
