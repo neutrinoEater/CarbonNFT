@@ -4,6 +4,9 @@ NFT-Collateralised UST stablecoin loans on Harmony
 
 ![alt text](https://raw.githubusercontent.com/neutrinoEater/CarbonNFT/main/public/Screenshot%202021-09-30%20at%208.31.08%20PM.png)
 
+
+IMP - PLS SEE branch edited for latest readme https://github.com/neutrinoEater/CarbonNFT/tree/edited
+
 CarbonNFT Protocol lets you:
 1. Mint a unique CarbonNFT card for each address to use as collateral;
 2. Provides a P2P platform for NFT-collateralised loans. Collateral can be CarbonNFT cards or any other NFT.
