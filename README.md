@@ -50,6 +50,7 @@ In particular, even if you don't have an NFT, you can claim your one-time carbon
 
 
 #Replicating Credit Cards from TradFi
+
 Only a small fraction of the world are banked and have access to easy credit. Many people even earning $50-500k+ in crypto are still unable to access unsecured credit, as banks preferentially issue credit cards only in first world countries, upon production of job & educational documents, etc.
 
 CarbonNFT aims to allow each person in the world to use their crypto wallet transaction history as a credit score, to access credit on the same fair and anonymous terms globally.
