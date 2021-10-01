@@ -57,7 +57,7 @@ CarbonNFT aims to allow each person in the world to use their crypto wallet tran
 
  Previously, crypto addresses with even millions of dollars in tx. volume couldn't be trusted with a few thousand USD of unsecured credit - simply because *they have nothing to lose* by not returning the loan, apart from an abstract notion of reputation. CarbonNFT makes this notion very explicit -
 1. By allowing each address to mint a CarbonNFT only once; And
-2. By linking each CarbonNFT URI to the address, making them non-transferable (i.e. I cannot a CarbonNFT linked to your address to get credit, just as I cannot use your credit card in real life)
+2. By linking each CarbonNFT URI to the address, making them non-transferable (i.e. I cannot use CarbonNFT linked to your address to get credit, just as I cannot use your credit card in real life)
 3. By transferring the credit card to the lender in case you default on the loan. In such an event the only way to get your credit card back is to satisfy the lender outside of the protocol and have them voluntarily send back the NFT.
 
 CarbonNFT thus ensures that borrowers have *something to lose* when they fail to repay an unsecured loans.
