@@ -35,6 +35,9 @@ CarbonLending is a Decentralised Finance (DeFi) protocol for NFT-collateralised 
  4. You recieve the UST in your wallet! Enjoy your credit responsibly.
  5. Pay back the loan with the promised interest any time before the end of the loan period - use the EndRequest Functionality.
 
+![alt text](https://raw.githubusercontent.com/neutrinoEater/CarbonNFT/main/public/demo1.png)
+
+
 Vide
 
 Contracts:
